@@ -25,7 +25,7 @@ function stampaNomi() {
     utenti.innerHTML = "";
 
     listaUtenti.forEach((elemento) => {
-        utenti.innerHTML += `<tr><td class="text-light">${elemento.nome} ${elemento.cognome}</td><td class="text-light">${elemento.eta}</td></tr>`;
+        utenti.innerHTML += `<tr><td class="text-light">${elemento.nome} ${elemento.cognome}</td><td class="text-light">${elemento.data}</td><td class="text-light">${elemento.eta}</td></tr>`;
     });
 }
 
