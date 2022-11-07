@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio programmazione oggetti</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar bg-dark justify-content-center">
+        <h3 class="text-light">PROGRAMMAZIONE A OGGETTI</h3>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <label class="mx-3 form-label" for="nome">Nome</label><br>
+                <input class="form-control" type="text" id="nome">
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <label class="mx-3 form-label" for="cognome">Cognome</label><br>
+                <input class="form-control" type="text" id="cognome">
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <label class="mx-3 form-label" for="data">Data di nascta</label><br>
+                <input class="form-control" type="date" id="data">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center mt-5">
+                <button type="button" id="inserisci" class="btn btn-primary">INSERISCI</button>
+            </div>
+        </div>
+        <hr>
+        <div class="container bg-dark">
+            <table class="table table-striped text-light text-center">
+                <thead>
+                    <tr>
+                        <th class="w-50"><b>NOME</b></th>
+                        <th class="w-50"><b>ETA'</b></th>
+                    </tr>
+                </thead>
+                <tbody id="utenti">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
